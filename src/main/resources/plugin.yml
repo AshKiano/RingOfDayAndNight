@@ -1,0 +1,14 @@
+name: RingOfDayAndNight
+version: '${project.version}'
+main: com.ashkiano.ringofdayandnight.RingOfDayAndNight
+api-version: '1.16'
+author: AshKiano
+description: A magical ring to toggle between day and night.
+commands:
+  givering:
+    description: Gives the player the Ring of Day and Night
+    usage: /<command>
+permissions:
+  ringofdayandnight.givering:
+    description: Allows the player to receive the Ring of Day and Night
+    default: op
