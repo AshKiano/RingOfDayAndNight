@@ -24,6 +24,9 @@ public class RingOfDayAndNight extends JavaPlugin implements Listener, CommandEx
         this.getCommand("givering").setExecutor(this);
 
         Metrics metrics = new Metrics(this, 19469);
+
+        this.getLogger().info("Thank you for using the RingOfDayAndNight plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
+
     }
 
     @Override
